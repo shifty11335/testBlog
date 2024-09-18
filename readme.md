@@ -17,7 +17,7 @@ This will setup everything needed for running the CMS:
 
 Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
 
-You can now add and edit content by navigating to your.app/admin.
+You can now add and edit content by navigating to yourdomain.app/admin.
 
 ## Local Development
 
