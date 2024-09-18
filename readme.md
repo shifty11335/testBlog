@@ -6,7 +6,7 @@ Dead-simple Hugo theme with Netlify CMS integration. Intended to be a starter fo
 
 Use the deploy button to get your own copy of the repository.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ericmurphyxyz/hugo-starter-netlify-cms&stack=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/shifty1135/hugo-netlify-cms&stack=cms)
 
 This will setup everything needed for running the CMS:
 
@@ -29,6 +29,4 @@ The Netlify CMS configuration file can be found in `static/admin/config.yml`.
 
 To learn more about building themes in Hugo, refer to Hugo's [templating documentation](https://gohugo.io/templates/).
 
-To learn more about Netlify CMS, please refer to Netlify CMS's [documentation](https://www.netlifycms.org/docs/intro/).
-
-If you want to learn more about using Netlify CMS with Hugo, I [made a video explaining how to do so](https://www.youtube.com/watch?v=ZyIiY2m7OpY).
+To learn more about Decap (Netlify) CMS [decap](https://decapcms.org/).
