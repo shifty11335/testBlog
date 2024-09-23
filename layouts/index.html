@@ -1,11 +1,24 @@
 {{ partial "header.html" . }}
 
-<h1>{{ .Params.title }}</h1>
+{{ $paginator := .Paginate (where site.RegularPages "Type" "posts") }} 
+
+<h1 class="post-title">{{ .Title }}</h1>
 
 <p>{{ .Params.blurb }}</p>
 
 <h2>{{ .Params.section.heading }}</h2>
 
 <p>{{ .Params.section.text }}</p>
+
+ {{ range $paginator.Pages }}
+<article class="post-snippet">
+  <h3>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h3>
+	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+		{{ .Date.Format "January 2, 2006" }}
+	</time>
+</article>
+{{ end }} 
 
 {{ partial "footer.html" . }}
