@@ -17,6 +17,10 @@ footer {
   width: 100%;
 }
 
+.site-header {
+  padding-top: 80px;
+}
+
 .wrapper {
   position: relative;
   min-height: 100%;
